@@ -122,8 +122,9 @@ knife azure server create --azure-dns-name 'distechnodemo' --azure-vm-name 'dtse
 ### Chapter 7:
 ***FROM tomcat:8.0***
 
-**MAINTAINER** ` Mitesh<YourEmailID@domain.com>`
-**COPY** `tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml`
+**MAINTAINER** ``` Mitesh<YourEmailID@domain.com>```
+
+**COPY**  ```tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml```
 
 ### Chapter 8:
 `java -jar newrelic.jar install`
